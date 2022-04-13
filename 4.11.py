@@ -18,7 +18,7 @@ def extract_word(text):
     result = hangul.sub(' ', text) 
     return result
 
-lix = df['kor'].values.tolist() #x만 출력해서 리스트로 변환
+lix = df1['kor'].values.tolist() #x만 출력해서 리스트로 변환
 type(lix)
 
 
